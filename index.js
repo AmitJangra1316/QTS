@@ -17,7 +17,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 
 // Database connection
-const connectionString = 'mongodb+srv://qonqests11:pdLaN2qOA8XoikRI@qts.kncbv0h.mongodb.net/?retryWrites=true&w=majority&appName=QTS';
+const connectionString = 'mongodb+srv://jenkincoder:tBDrGcLFDGmshTCH@cluster0.wxoptfd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
 mongoose.connect(connectionString, {
   maxPoolSize: 10,
 }).then(() => {
